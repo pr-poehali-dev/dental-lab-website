@@ -129,9 +129,9 @@ const Index = () => {
       <nav className="fixed top-0 w-full bg-white/95 backdrop-blur-sm z-50 border-b border-border">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
-            <div className="flex items-center gap-2">
-              <Icon name="Sparkles" size={28} className="text-primary" />
-              <span className="text-2xl font-bold text-primary">DentalLab</span>
+            <div className="flex items-center gap-3">
+              <img src="https://cdn.poehali.dev/files/2161f45f-af5b-420d-886e-f6199ecbf580.jpg" alt="LIPIN DENTAL LAB" className="h-12 w-auto" />
+              <span className="text-2xl font-bold text-primary">LIPIN DENTAL LAB</span>
             </div>
             <div className="hidden md:flex items-center gap-8">
               {['Главная', 'Услуги', 'О лаборатории', 'Технологии', 'Портфолио', 'Прайс', 'Контакты'].map((item) => (
@@ -156,8 +156,8 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-5xl md:text-6xl font-bold text-foreground mb-6 leading-tight">
-              Зуботехническая лаборатория<br />
-              <span className="text-primary">премиум-класса</span>
+              <span className="text-primary">LIPIN DENTAL LAB</span><br />
+              Зуботехническая лаборатория премиум-класса
             </h1>
             <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
               Создаём идеальные улыбки с использованием передовых технологий CAD/CAM и высококачественных материалов
@@ -365,8 +365,8 @@ const Index = () => {
           <div className="grid md:grid-cols-4 gap-8">
             <div>
               <div className="flex items-center gap-2 mb-4">
-                <Icon name="Sparkles" size={24} />
-                <span className="text-xl font-bold">DentalLab</span>
+                <img src="https://cdn.poehali.dev/files/2161f45f-af5b-420d-886e-f6199ecbf580.jpg" alt="LIPIN DENTAL LAB" className="h-10 w-auto" />
+                <span className="text-xl font-bold">LIPIN DENTAL LAB</span>
               </div>
               <p className="text-sm text-gray-400">
                 Профессиональная зуботехническая лаборатория с 2010 года
@@ -400,7 +400,7 @@ const Index = () => {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-sm text-gray-400">
-            <p>© 2024 DentalLab. Все права защищены.</p>
+            <p>© 2024 LIPIN DENTAL LAB. Все права защищены.</p>
           </div>
         </div>
       </footer>
