@@ -155,9 +155,6 @@ const Index = () => {
       <section id="главная" className="pt-32 pb-20 bg-gradient-to-br from-secondary/20 to-background">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <div className="mb-8 flex justify-center">
-              <img src="https://cdn.poehali.dev/files/2161f45f-af5b-420d-886e-f6199ecbf580.jpg" alt="LIPIN DENTAL LAB" className="h-48 w-auto" />
-            </div>
             <h1 className="text-5xl md:text-6xl font-bold text-foreground mb-6 leading-tight">
               <span className="text-primary">LIPIN DENTAL LAB</span><br />
               Зуботехническая лаборатория премиум-класса
