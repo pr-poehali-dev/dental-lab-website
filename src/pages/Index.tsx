@@ -126,7 +126,7 @@ const Index = () => {
 
   return (
     <div className="min-h-screen">
-      <nav className="fixed top-0 w-full bg-white/95 backdrop-blur-sm z-50 border-b border-border">
+      <nav className="fixed top-0 w-full bg-background/95 backdrop-blur-sm z-50 border-b border-border">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
@@ -152,7 +152,7 @@ const Index = () => {
         </div>
       </nav>
 
-      <section id="главная" className="pt-32 pb-20 bg-gradient-to-br from-secondary/30 to-white">
+      <section id="главная" className="pt-32 pb-20 bg-gradient-to-br from-secondary/20 to-background">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <div className="mb-8 flex justify-center">
@@ -203,7 +203,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="о-лаборатории" className="py-20 bg-secondary/20">
+      <section id="о-лаборатории" className="py-20 bg-secondary/10">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
@@ -285,7 +285,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="портфолио" className="py-20 bg-secondary/20">
+      <section id="портфолио" className="py-20 bg-secondary/10">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-foreground mb-4">Наши работы</h2>
@@ -329,7 +329,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="контакты" className="py-20 bg-secondary/20">
+      <section id="контакты" className="py-20 bg-secondary/10">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-foreground mb-4">Контакты</h2>
@@ -363,7 +363,7 @@ const Index = () => {
         </div>
       </section>
 
-      <footer className="bg-foreground text-white py-12">
+      <footer className="bg-accent text-white py-12">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
